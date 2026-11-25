@@ -1,7 +1,6 @@
 <div align="center">
 
-# femboy.rocks
-# themes
+# femboy.rocks themes
 
 [![Website](https://img.shields.io/badge/website-femboy.rocks-ff8ff9?style=flat&logo=safari&logoColor=white)](https://femboy.rocks)
 
