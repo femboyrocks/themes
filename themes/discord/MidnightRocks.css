@@ -30,9 +30,7 @@ body {
     --custom-window-controls: on;
     --window-control-size: 14px;
 
-    --custom-dms-icon: custom;
-    --dms-icon-svg-url: url('https://raw.githubusercontent.com/femboyrocks/themes/refs/heads/main/themes/Discord/assets/KiwiSoda_F_Logo.png');
-    --dms-icon-svg-size: 100%;
+    --custom-dms-icon: off;
     --dms-icon-color-before: var(--icon-subtle);
     --dms-icon-color-after: var(--white);
     --custom-dms-background: off;
@@ -62,6 +60,7 @@ body {
     --friends-outline: on;
     --modal-outline: on;
     --button-outline: on;
+    --emoji-outline: off;
 
     background: #09030A !important;
 }
@@ -163,6 +162,7 @@ body {
 @property --friends-outline { syntax: 'off | on'; inherits: false; initial-value: on; }
 @property --modal-outline { syntax: 'off | on'; inherits: false; initial-value: on; }
 @property --button-outline { syntax: 'off | on'; inherits: false; initial-value: on; }
+@property --emoji-outline { syntax: 'off | on'; inherits: false; initial-value: on; }
 @container body style(--guild-outline: off) { .guilds_pog62O { border-color: transparent !important; } }
 @container body style(--channel-outline: off) { .sidebarList_pog62O { border-color: transparent !important; } }
 @container body style(--user-outline: off) { .panels_pog62O { border-color: transparent !important; } }
@@ -172,3 +172,4 @@ body {
 @container body style(--friends-outline: off) { .peopleColumn_zrUwGA, .nowPlayingColumn_zrUwGA, .container_zrUwGA > .container_ybUK7Z, .container_nMe-a6 > .container_ybUK7Z, .homeWrapper_8iSxT3 > .container_ybUK7Z, .container_nMe-a6 > .content_z_gUBg, .mainPageScroller_IRnLy8, .scroller_jkJlMe { border-color: transparent !important; } }
 @container body style(--modal-outline: off) { .container_dvN-MP, .container_I4BhVZ, .shop_Mqg79R, .chat_UU236g, .container_UU236g, .callContainer_hbKzX7, .wrapper_hbKzX7.sidebarOpen_hbKzX7 .callContainer_hbKzX7, .callContainer_DwQMm_, .container_FrbQJp > .container_ybUK7Z, .container_UU236g > .container_ybUK7Z { border-color: transparent !important; } }
 @container body style(--button-outline: off) { #app-mount button:not([class*="winButton"]) { border-color: transparent !important; } }
+@container body style(--emoji-outline: off) { #app-mount :is(button, [role="button"]):is([class*="emoji"], [class*="Emoji"], [class*="expression"], [class*="Expression"], [class*="sticker"], [class*="Sticker"]), #app-mount :is([class*="emojiPicker"], [class*="expressionPicker"], .contentWrapper_58b0l2) button { border-color: transparent !important; outline: 0 !important; } }
