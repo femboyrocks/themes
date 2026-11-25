@@ -31,8 +31,8 @@ body {
     --window-control-size: 14px;
 
     --custom-dms-icon: custom;
-    --dms-icon-svg-url: url('https://refact0r.github.io/midnight-discord/assets/Font_Awesome_5_solid_moon.svg');
-    --dms-icon-svg-size: 90%;
+    --dms-icon-svg-url: url('https://raw.githubusercontent.com/femboyrocks/themes/refs/heads/main/themes/Discord/assets/KiwiSoda_F_Logo.png');
+    --dms-icon-svg-size: 100%;
     --dms-icon-color-before: var(--icon-subtle);
     --dms-icon-color-after: var(--white);
     --custom-dms-background: off;
