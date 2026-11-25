@@ -7,7 +7,7 @@
 
 <br />
 
-<img src="assets/images/astolfo.png" alt="Astolfo mascot" width="220" />
+<img src="https://raw.githubusercontent.com/femboyrocks/femboy.rocks/refs/heads/main/assets/images/astolfo.png" alt="Astolfo mascot" width="220" />
 
 ### world's BEST EVER frickin repo for the femboy.rocks themes for stuff n more!
 
