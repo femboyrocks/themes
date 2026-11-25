@@ -148,7 +148,7 @@ body {
 .container_86es0b { background-color: #1A0B1A; }
 .peopleColumn_zrUwGA, .nowPlayingColumn_zrUwGA { background-color: #1A0B1A; }
 .container_dvN-MP { background-color: #140D16; }
-#app-mount button:not([class*="winButton"]):not([class*="circleIconButton"]):not([class*="IconButton"]) { border: 1px solid #E792C159; border-radius: 8px; background-color: #140D16; color: var(--text-1); }
+#app-mount button:not([class*="winButton"]):not([class*="circleIconButton"]):not([class*="IconButton"]):not([class*="K9Xq13"]):not([class*="participantsButton"]):not([class*="call"]):not([class*="Call"]) { border: 1px solid #E792C159; border-radius: 8px; background-color: #140D16; color: var(--text-1); }
 #app-mount [class*="toolbar"] button:not([class*="redGlow"]):not([class*="winButton"]), #app-mount .container_g6VwXp button:not([class*="redGlow"]) { background-color: #2C122A !important; }
 .children_ybUK7Z:after, .chatGradient_8AE1Qq { display: none; }
 .newMessagesBar_j9Vvzj, .newMessagesBar_j9Vvzj * { border: 0 !important; outline: 0 !important; box-shadow: none !important; background-image: none !important; background-color: #E792C1 !important; text-shadow: none !important; }
